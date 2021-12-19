@@ -69,7 +69,7 @@ func (t *twitchirc)Init() error {
 }
 
 func (t *twitchirc)Connect() error {
-	t.Client.Join("oonray")
+	t.Client.Join(t.Config.User)
 	err := t.Client.Connect()
 	return err
 }

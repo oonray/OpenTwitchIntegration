@@ -4,6 +4,7 @@ go 1.17
 
 require (
 	github.com/gempir/go-twitch-irc/v2 v2.8.1
+	github.com/gorilla/mux v1.8.0
 	github.com/pelletier/go-toml v1.9.4
 	github.com/sirupsen/logrus v1.8.1
 )
